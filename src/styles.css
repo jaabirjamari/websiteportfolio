@@ -1,0 +1,187 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section{
+    background-color: #fbfbff;
+    border: solid red 1.5px;
+}
+
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li{
+    /* width: 200px;*/
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 90px;
+    margin: 0px;
+}
+
+
+h2{
+    font-size: 50px;
+}
+
+
+p{
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+
+.button{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+
+.bottom:hover{
+    background-color: red;
+}
+
+
+.button:active{
+    background-color: grey;
+    color: black;
+}
+
+
+.socials{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.logo {
+    height: 30px;
+}
+
+
+.socials{
+    margin: 10px;
+}
+
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+
+.headshot{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(166, 165, 165);
+    margin: 10px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 0px;
+
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
